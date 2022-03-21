@@ -1022,10 +1022,8 @@ microverse_projector_advanced.recipeMap
             <contenttweaker:stabilizedplutonium> * 32)
     .outputs(<gregtech:ore_cooperite_0:2> * 64,
              <gregtech:ore_cooperite_0:2> * 64,
-             <gregtech:ore_kaemanite_0:2> * 48,
-             <gregtech:ore_naquadah_0> * 64,
-             <gregtech:ore_naquadah_0> * 64,
-             <gregtech:ore_naquadah_0> * 64)
+             <gregtech:ore_kaemanite_0:2> * 24,
+             <gregtech:ore_naquadah_0:2> * 48)
              
     .buildAndRegister();
 
@@ -1037,9 +1035,8 @@ actualization_chamber.recipeMap
     .circuit(2)
     .outputs(<gregtech:ore_cooperite_0:2> * 64,
              <gregtech:ore_cooperite_0:2> * 64,
-             <gregtech:ore_naquadah_0:2> * 64,
-             <gregtech:ore_naquadah_0:2> * 64,
-             <gregtech:ore_naquadah_0:2> * 32)
+             <gregtech:ore_kaemanite_0:2> * 24,
+             <gregtech:ore_naquadah_0:2> * 48)
              
     .buildAndRegister();
 
