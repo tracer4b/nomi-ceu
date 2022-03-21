@@ -1012,7 +1012,7 @@ actualization_chamber.recipeMap
              <gregtech:ore_beryllium_0> * 64)
     .buildAndRegister();
 
-// t5 naquadah sheldonite
+// t5 naquadah sheldonite trinium
 microverse_projector_advanced.recipeMap
     .recipeBuilder()
     .duration(1000)
@@ -1022,9 +1022,10 @@ microverse_projector_advanced.recipeMap
             <contenttweaker:stabilizedplutonium> * 32)
     .outputs(<gregtech:ore_cooperite_0:2> * 64,
              <gregtech:ore_cooperite_0:2> * 64,
-             <gregtech:ore_naquadah_0:2> * 64,
-             <gregtech:ore_naquadah_0:2> * 64,
-             <gregtech:ore_naquadah_0:2> * 32)
+             <gregtech:ore_kaemanite_0:2> * 48,
+             <gregtech:ore_naquadah_0> * 64,
+             <gregtech:ore_naquadah_0> * 64,
+             <gregtech:ore_naquadah_0> * 64)
              
     .buildAndRegister();
 
