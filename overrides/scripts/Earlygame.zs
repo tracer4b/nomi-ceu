@@ -81,11 +81,11 @@ recipes.addShaped(<storagedrawers:controllerslave>, [
 
 // Ender Tank (Ender Storage)
 recipes.remove(<enderstorage:ender_storage:1>);
-recipes.addShaped(<enderstorage:ender_storage:1>, [
-	[<minecraft:blaze_rod>, <minecraft:wool>, <minecraft:blaze_rod>],
-	[<ore:obsidian>, basictank, <ore:obsidian>],
-	[<minecraft:blaze_rod>, <ore:blockEnderPearl>, <minecraft:blaze_rod>]]); //Ender Pearl Block
-recipes.addShapeless(<enderstorage:ender_storage:1>, [<enderstorage:ender_storage:1>]);
+//recipes.addShaped(<enderstorage:ender_storage:1>, [
+//	[<minecraft:blaze_rod>, <minecraft:wool>, <minecraft:blaze_rod>],
+//	[<ore:obsidian>, basictank, <ore:obsidian>],
+//	[<minecraft:blaze_rod>, <ore:blockEnderPearl>, <minecraft:blaze_rod>]]); //Ender Pearl Block
+//recipes.addShapeless(<enderstorage:ender_storage:1>, [<enderstorage:ender_storage:1>]);
 
 
 //Black Quartz
