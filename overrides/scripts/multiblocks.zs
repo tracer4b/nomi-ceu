@@ -335,7 +335,7 @@ val actualization_chamber = Builder.start("actualization_chamber")
             .minOutputs(1)
             .maxOutputs(16)
             .build())
-    .withBaseTexture(<metastate:gregtech:fusion_casing:4>)
+    .withBaseTexture(<cube_renderer:FUSION_TEXTURE>)
     .buildAndRegister();
 
 actualization_chamber.hasMufflerMechanics = false;
