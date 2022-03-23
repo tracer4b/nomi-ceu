@@ -357,6 +357,12 @@ reactor.recipeBuilder()
     .fluidOutputs(<liquid:elementalreduction> * 1000)
     .duration(80).EUt(90).buildAndRegister();
 
+reactor.recipeBuilder()
+    .inputs(<ore:dustPulsating> * 4)
+    .fluidInputs([<liquid:fluoroantimonic_acid> * 1000])
+    .fluidOutputs(<liquid:elementalreduction> * 12000)
+    .duration(540).EUt(360).buildAndRegister();
+
 <extendedcrafting:storage:6>.displayName = "Block of Endest Stars";
 <extendedcrafting:material:40>.displayName = "Endest Star";
 <extendedcrafting:material:41>.displayName = "Endest Star Nugget";
