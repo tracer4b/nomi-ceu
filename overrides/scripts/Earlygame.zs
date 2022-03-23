@@ -1,7 +1,7 @@
 import mods.gregtech.recipe.RecipeMap;
 import mods.gregtech.material.MaterialRegistry;
 import crafttweaker.item.IItemStack;
-//import scripts.CommonVars.makeShaped as makeShaped;
+import scripts.common.makeShaped as makeShaped;
 
 //Plantball
 recipes.addShaped(<metaitem:plant_ball>, [
@@ -494,3 +494,25 @@ alloy.recipeBuilder()
 	.inputs([<ore:dustPulsating>, <metaitem:carbon.mesh>])
 	.outputs([<contenttweaker:pulsatingmesh>])
 	.duration(180).EUt(16).buildAndRegister();
+
+// Endervoir
+recipes.removeByRecipeName("enderio:reservoir");
+assembler.recipeBuilder()
+	.inputs([<ore:blockGlassHardened> * 18, <metaitem:plateDoubleEnergeticAlloy> * 3, <minecraft:cauldron>])
+	.outputs(<enderio:block_reservoir> * 3)
+	.duration(100)
+	.EUt(30)
+	.buildAndRegister();
+
+// Farming Station
+recipes.removeByRecipeName("enderio:farming_station");
+makeShaped("farming_station", <enderio:block_farm_station>,
+	["VCV",
+	 "SHS",
+	 "GPG"],
+	{ V : <ore:itemVibrantCrystal>,
+	  P : <ore:itemPulsatingCrystal>,
+	  S : <ore:plateSteel>,
+	  G : <ore:gearIronInfinity>,
+	  H : <ore:itemSimpleMachineChassi>,
+	  C : <ore:circuitBasic>});
