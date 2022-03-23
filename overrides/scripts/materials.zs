@@ -21,7 +21,7 @@ var draconium = MaterialBuilder(32001, "draconium")
     .ingot().fluid().ore()
     .color(0xbe49ed).iconSet("metallic")
     .blastTemp(6800, "HIGHER")
-    .cableProperties(524288, 1, 0, true)
+    .cableProperties(524288, 3, 1)
     .flags(["generate_plate", "generate_rod", "generate_gear"])
     .build();
 
@@ -71,7 +71,7 @@ var signalum = MaterialBuilder(32010, "signalum")
     .blastTemp(4000, "MID", 120, 12800)
     .flags(["generate_plate", "generate_dense", "generate_rod", "generate_gear"])
     .components([<material:annealed_copper> * 4, <material:ardite> * 2, <material:red_alloy> * 2])
-    .cableProperties(32768, 1, 0, true)
+    .cableProperties(32768, 3, 1)
     .build();
 
 var conductive_iron = MaterialBuilder(32011, "conductive_iron")
@@ -79,7 +79,7 @@ var conductive_iron = MaterialBuilder(32011, "conductive_iron")
     .color(0xf7b29b).iconSet("metallic")
     .flags("generate_plate", "generate_gear")
     .components([<material:iron> * 1, <material:redstone> * 1])
-    .cableProperties(32, 1, 0, true)
+    .cableProperties(32, 2, 1)
     .build();
 
 var energetic_alloy = MaterialBuilder(32012, "energetic_alloy")
@@ -88,7 +88,7 @@ var energetic_alloy = MaterialBuilder(32012, "energetic_alloy")
     .flags("generate_plate", "generate_gear")
     .blastTemp(1250, "LOW", 120, 400)
     .components([<material:gold> * 2, <material:redstone> * 1, <material:glowstone> * 1])
-    .cableProperties(128, 1, 0, true)
+    .cableProperties(128, 2, 1)
     .build();
 
 var vibrant_alloy = MaterialBuilder(32013, "vibrant_alloy")
@@ -97,7 +97,7 @@ var vibrant_alloy = MaterialBuilder(32013, "vibrant_alloy")
     .flags("generate_plate", "generate_gear", "generate_rod", "generate_bolt_screw")
     .blastTemp(1350, "LOW", 120, 600)
     .components([<material:energetic_alloy> * 1, <material:ender_pearl> * 1])
-    .cableProperties(512, 1, 0, true)
+    .cableProperties(512, 2, 1)
     .build();
 
 var pulsating_iron = MaterialBuilder(32014, "pulsating_iron")
@@ -105,7 +105,7 @@ var pulsating_iron = MaterialBuilder(32014, "pulsating_iron")
     .color(0x6ae26e).iconSet("shiny")
     .flags("generate_plate", "generate_gear")
     .components([<material:iron> * 1])
-    .cableProperties(8, 1, 0, true)
+    .cableProperties(8, 2, 1)
     .build();
 
 var electrical_steel = MaterialBuilder(32015, "electrical_steel")
@@ -121,7 +121,7 @@ var lumium = MaterialBuilder(32017, "lumium")
     .flags("generate_plate", "generate_gear")
     .blastTemp(4500, "MID", 120, 14400)
     .components([<material:tin_alloy> * 4, <material:sterling_silver> * 2])
-    .cableProperties(8192, 1, 0, true)
+    .cableProperties(8192, 3, 1)
     .build();
 
 var enderium = MaterialBuilder(32018, "enderium")
@@ -130,7 +130,7 @@ var enderium = MaterialBuilder(32018, "enderium")
     .flags("generate_plate", "generate_gear", "generate_fine_wire")
     .blastTemp(6400, "HIGHEST", 120, 20800)
     .components([<material:lead> * 4, <material:platinum> * 2, <material:blue_steel> * 1, <material:osmium> * 1])
-    .cableProperties(131072, 1, 0, true)
+    .cableProperties(131072, 3, 1)
     .build();
 
 var electrum_flux = MaterialBuilder(32019, "electrum_flux")
@@ -165,7 +165,7 @@ var end_steel = MaterialBuilder(32025, "end_steel")
     .ingot().fluid()
     .color(0xd6d980).iconSet("metallic")
     .flags("generate_plate", "generate_gear")
-    .cableProperties(2048,1,0,true)
+    .cableProperties(2048, 2, 1)
     .build();
 
 var infinity = MaterialBuilder(32026, "infinity")
